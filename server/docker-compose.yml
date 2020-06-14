@@ -1,0 +1,39 @@
+version: '3.6'
+
+networks:
+  ecoleta-network:
+    driver: bridge
+
+services:
+  ecoleta-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecoleta-server
+    restart: always
+    command: yarn dev
+    ports:
+      - '3333:3000'
+    volumes:
+      - .:/home/node/server
+    networks:
+      - ecoleta-network
+    depends_on:
+      - ecoleta-postgres
+    links:
+      - ecoleta-postgres
+
+  ecoleta-postgres:
+    image: postgres
+    container_name: ecoleta-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=dockernode
+      - POSTGRES_PASSWORD=dockernode
+      - POSTGRES_DATA=/data/postgres
+    networks:
+      - ecoleta-network
+    volumes:
+      - ./data/db/postgres:/data/postgres
+    ports:
+      - '5433:5432'
