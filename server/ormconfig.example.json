@@ -1,0 +1,92 @@
+[
+  {
+    "name": "production",
+    "type": "postgres",
+    "host": "",
+    "port": 5432,
+    "username": "",
+    "password": "",
+    "database": "",
+    "entities": ["build/src/app/entities/**/*.js"],
+    "migrations": ["build/src/services/database/migrations/*.js"],
+    "cli": {
+      "migrationsDir": "build/src/services/database/migrations"
+    }
+  },
+  {
+    "name": "seeds",
+    "type": "postgres",
+    "host": "",
+    "port": 5432,
+    "username": "",
+    "password": "",
+    "database": "",
+    "synchronize": false,
+    "entities": ["build/src/app/entities/**/*.js"],
+    "migrations": ["build/src/services/database/seeds/*.js"],
+    "cli": {
+      "migrationsDir": "build/src/services/database/seeds"
+    }
+  },
+  {
+    "name": "development",
+    "type": "postgres",
+    "host": "ecoleta-postgres",
+    "port": 5432,
+    "username": "dockernode",
+    "password": "dockernode",
+    "database": "ecoleta",
+    "entities": ["src/app/entities/**/*.ts"],
+    "migrations": ["src/services/database/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "src/services/database/migrations"
+    }
+  },
+  {
+    "name": "seeds:dev",
+    "type": "postgres",
+    "host": "ecoleta-postgres",
+    "port": 5432,
+    "username": "dockernode",
+    "password": "dockernode",
+    "database": "ecoleta",
+    "synchronize": false,
+    "logging": true,
+    "logger": "simple-console",
+    "entities": ["src/app/entities/**/*.ts"],
+    "migrations": ["src/services/database/seeds/*.ts"],
+    "cli": {
+      "migrationsDir": "src/services/database/seeds"
+    }
+  },
+  {
+    "name": "test",
+    "type": "postgres",
+    "host": "ecoleta-postgres",
+    "port": 5432,
+    "username": "dockernode",
+    "password": "dockernode",
+    "database": "ecoleta-test",
+    "synchronize": false,
+    "entities": ["src/app/entities/**/*.ts"],
+    "migrations": ["src/services/database/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "src/services/database/migrations"
+    }
+  },
+  {
+    "name": "seeds:test",
+    "type": "postgres",
+    "host": "ecoleta-postgres",
+    "port": 5432,
+    "username": "dockernode",
+    "password": "dockernode",
+    "database": "ecoleta-test",
+    "synchronize": false,
+    "entities": ["src/app/entities/**/*.ts"],
+    "migrations": ["src/services/database/seeds/*.ts"],
+    "cli": {
+      "migrationsDir": "src/services/database/seeds"
+    }
+  }
+]

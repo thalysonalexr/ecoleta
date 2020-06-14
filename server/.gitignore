@@ -1,0 +1,11 @@
+__tests__/coverage
+node_modules
+.env
+.env.dev
+.env.test
+data
+tmp/*.webp
+!tmp/.gitkeep
+# this dir and files is present in mode production
+build
+ormconfig.json
