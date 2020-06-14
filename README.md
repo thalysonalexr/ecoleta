@@ -45,7 +45,7 @@
   </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## :information-source: Sobre o projeto
+## :information_source: Sobre o projeto
 
 O projeto **Ecoleta** foi desenvolvido durante a primeira edição da **Next Level Week** realizado pela **@Rocketseat**. O projeto tem como intuíto ser um marketplace de coleta de resíduos, ajudando pessoas a encontrarem pontos de coletas mais próximos para descartarem diferentes tipos de lixos.
 
