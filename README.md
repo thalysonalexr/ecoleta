@@ -101,7 +101,7 @@ Também utilizei **tsconfig-paths** para obter caminhos mais "amigáveis" durant
 
 Você também pode testar a API com o cliente de requisições [**Insomnia**](https://insomnia.rest/download/), basta clicar no botão abaixo para obter o [**workspace**](https://raw.githubusercontent.com/thalysonalexr/ecoleta/master/server/docs/insomnia.json):
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta%20API&uri=https%3A%2F%2Fgithub.com%2Fthalysonalexr%2Fecoleta%2Ftree%2Fmaster%2Fserver%2Fdocs%2Finsomnia.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthalysonalexr%2Fecoleta%2Fmaster%2Fserver%2Fdocs%2Finsomnia.json)
 
 Além do Docker e as features mencionadas também foi desenvolvido ambientes de **testes**, **desenvolvimento** e **produção**, você pode ver como executá-los com scripts npm [**aqui**](https://github.com/thalysonalexr/ecoleta/tree/master/server/package.json).
 
