@@ -99,7 +99,7 @@ Durante a semana foi utilizado a lib [**Knex**](http://knexjs.org/) com o banco 
 
 Também utilizei **tsconfig-paths** para obter caminhos mais "amigáveis" durante o desenvolvimento, e Jest para realizar testes de integração e unidade. Você pode ver o coverage [**clicando aqui**](https://github.com/thalysonalexr/ecoleta/tree/master/server/docs/tests-coverage.png).
 
-Você também pode testar a API com o cliente de requisições [**Insomnia**](https://insomnia.rest/download/), basta clicar no botão abaixo para obter o [**workspace**](https://github.com/thalysonalexr/ecoleta/tree/master/server/docs/insomnia.json):
+Você também pode testar a API com o cliente de requisições [**Insomnia**](https://insomnia.rest/download/), basta clicar no botão abaixo para obter o [**workspace**](https://raw.githubusercontent.com/thalysonalexr/ecoleta/master/server/docs/insomnia.json):
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta%20API&uri=https%3A%2F%2Fgithub.com%2Fthalysonalexr%2Fecoleta%2Ftree%2Fmaster%2Fserver%2Fdocs%2Finsomnia.json)
 
